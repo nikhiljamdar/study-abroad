@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    
+}
+.nav-list{
+    width: 75.8%;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #F8F8F8;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 30px 40px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:  #101010;
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    background-color: #101010;
+}
+.rightbtn{
+    width: 154px;
+    height: 53px;
+    top: 50px;
+    left: 1611px;
+    border-radius: 11px;
+    background-color: #DDF252;
+    
+}
+.background{
+    background:url(Background\ \(Slide\ 1\).png);
+    background-size: cover;
+    width: 1550px;
+    height: 650px;
+    position: absolute;
+    top: 10%;
+    
+}
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10%;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding-left: 10%;
+}
+.registerbtn{
+    padding-left: 10%;
+}
+
+.firsthalf{
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    padding-right: 20%;
+
+}
+.h5t{
+    font-weight: 400;
+    size: 20px; 
+    line-height: 24px; 
+    width:417px ;
+    height: 24px;
+    top: 262px;
+    left: 112px;
+}
+.secondhalf img{
+    width: 11    10px;
+    height: 610px;
+    top: 65px;
+    left: 670px;
+    padding-inline-start: 0.001%;
+    position: absolute;
+    top: 2%;
+}
+.btn{
+    width: 289px;
+    height: 71px;
+    top: 732px;
+    left: 112px;
+    border-radius: 10px;
+    background: #101010;
+    color: #ffffff;
+}
+.btn2{
+    width: 269px;
+    height: 71px;
+    top: 732px;
+    left: 432px;
+    border-radius: 10px;
+    border: 1px;
+    border: 1px solid #101010
+
+}
+.elli1 img{
+    width: 60px;
+    height: 60px;
+    top: 867px;
+    left: 112px;
+    border: 5px;
+    border: 5px solid #F8F8F8
+    linear-gradient(0deg, #D9D9D9, #D9D9D9),
+    linear-gradient(0deg, #F8F8F8, #F8F8F8);
+    position: absolute;
+    top: 80%;
+}
+.elli2 img{
+    width: 60px;
+    height: 60px;
+    top: 867px;
+    left: 144px;
+    border: 5px;
+    border: 5px solid #F8F8F8
+    linear-gradient(0deg, #D9D9D9, #D9D9D9),
+    linear-gradient(0deg, #F8F8F8, #F8F8F8);
+    position: absolute;
+    top: 80%;
+}
+.elli3 img{
+    width: 60px;
+    height: 60px;
+    top: 867px;
+    left: 176px;
+    border: 5px;
+    border: 5px solid #F8F8F8
+    linear-gradient(0deg, #D9D9D9, #D9D9D9),
+    linear-gradient(0deg, #F8F8F8, #F8F8F8);
+    position: absolute;
+    top: 80%;
+}
+.elli4 img{
+    width: 60px;
+    height: 60px;
+    top: 867px;
+    left: 208px;
+    border: 5px;
+    border: 5px solid #F8F8F8
+    linear-gradient(0deg, #D9D9D9, #D9D9D9),
+    linear-gradient(0deg, #F8F8F8, #F8F8F8);
+    position: absolute;
+    top: 80%;
+
+}
+.elli5 img{
+    width: 60px;
+    height: 60px;
+    top: 867px;
+    left: 240px;
+    border: 5px;
+    border: 5px solid #F8F8F8
+    linear-gradient(0deg, #D9D9D9, #D9D9D9),
+    linear-gradient(0deg, #F8F8F8, #F8F8F8);
+    position: absolute;
+    top: 80%;
+}
+.sec2{
+    background-size: cover;
+    width: 1550px;
+    height: 650px;
+}
+.bg1 {
+    width: 1920px;
+    height: 790px;
+    top: 1080px;
+    position: absolute;
+    top: 100%;
+}
+.bg2{
+    position: absolute;
+    top: 100%;
+}
+.bg3{
+    position: absolute;
+    top: 100%; 
+}
+.sec3bg1{
+    width: 1920px;
+    height: 300px;
+    top: 1870px;
+    position: absolute;
+    top: 210%;
+}
+.sec4bg1{
+    width: 1920px;
+    height: 494px;
+    top: 2170px;
+    position: absolute;
+    top: 250%;
+}
+.sec4txt{
+    position: absolute;
+    top: 20%;
+}
+
+.sec4p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20%;
+}
+.sec4p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20%;
+}
+.divbtn{
+    padding-left: 20%;
+}
+.sec4btn{
+    width: 289px;
+    height: 71px;
+    top: 732px;
+    left: 112px;
+    border-radius: 10px;
+    background: #101010;
+    color: #ffffff;
+}
+.sec4bg2{
+    width: 1920px;
+    height: 494px;
+    top: 2170px;
+    position: absolute;
+    top: 5%;
+}
+.scrolii{
+    padding-left: 250%;
+}
+.sec5bg1{
+    width: 1920px;
+    height: 300px;
+    top: 2964px;
+    position: absolute;
+    top: 335%;
+}
+.sec5txt{
+    width: 978px;
+    height: 120px;
+    top: 2754px;
+    left: 112px;
+    position: absolute;
+    top: 50%;
+}
+.sec5h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1%;
+}
+.sec5bg2{   
+    width: 492px;
+    height: 86px;
+    top: 2771px;
+    left: 1282px;
+    border-radius: 10px;
+    padding-left: 60%;
+}
+.sec5txt2{
+    padding-bottom: 20px;
+}
+.sec5h2{
+    position: absolute;
+    top: 20%;
+}
+.sec6bg1{
+    width: 1920px;
+    height: 921px;
+    top: 2964px;
+    position: absolute;
+    top: 376%;
+
+}
+.boy {
+    width: 2115px;
+    height: 1410px;
+    top: 2899px;
+    left: 1879px;
+    position: absolute;
+    left: 0.0px;
+    padding-inline-start: 0.0%;
+    position: absolute;
+    top: 0.0%;
+    
+    
+
+}
+.boytxt{
+    width: 2115px;
+    height: 1410px;
+    top: 2899px;
+    left: 1879px;
+    position: absolute;
+    left: 0.0px;
+    padding-inline-start: 50%;
+    position: absolute;
+    top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.boybtn1{
+    width: 314px;
+    height: 71px;
+    top: 3369px;
+    left: 981px;
+    border-radius: 10px;
+    background-color: #DDF252;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.boybtn{
+    padding-left: 10%;
+}
+.num1{
+    position: absolute;
+    left: 30%;
+}
+.boyp{
+    position: absolute;
+    bottom: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boyh1{
+    position: absolute;
+    right: 51%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.boyp2{
+    position: absolute;
+    top: 38%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.num2{
+    position: absolute;
+    right: 20%;
+    top: 24%;
+    left: 45%;
+}
+.boypp{
+    position: absolute;
+    top: 28%;
+    left: 55%;
+
+}
+.boyh2{
+    position: absolute;
+    top: 31%;
+    left: 45%;
+
+}
+.boyp3{
+    position: absolute;
+    top: 38%;
+    left: 55%;
+
+}
+.sec7bg1{
+    width: 1894px;
+    height: 674px;
+    top: 3876px;
+    left: 26px;
+    position: absolute;
+    top: 480%;
+}
+.sec7bg2{
+    width: 1920px;
+    height: 674px;
+    top: 3885px;
+    position: absolute;
+    top: 480%;
+    left: 0%;
+}
+
+.text-center{
+    position: absolute;
+    top: 570%;
+    background-color: #101010;
+    height: 20%;
+    width: 130%;
+    text-decoration: #D9D9D9;
+}
+.footxt{
+    color: white;
+    text-decoration: #D9D9D9;
+    position: absolute;
+    top: 570%;
+    left: 35%;
+    top: 580%;
+
+}
+.footxt a{
+    text-decoration: none;
+    color: #DDF252;
+}
+
+
+
+
+
+
+
+
+
+
